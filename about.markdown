@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-### [LinkedIn](www.linkedin.com/in/robbie-grier) | [Github](https://github.com/robbiegrier)
+### [LinkedIn](https://linkedin.com/in/robbie-grier) | [Github](https://github.com/robbiegrier)
 
 # Work Experience
 - Torc Robotics		
