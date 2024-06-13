@@ -33,6 +33,25 @@ This is my interactive world builder research project. It builds on my engine by
 
 <br>
 
+## Skinned Animation System
+A GPU-accelerated animation system. Converts animation data embedded in GLTF models into a runtime format, which is loaded as an animation clip in the engine. Compute shaders implement the skinning algorithm and bone data is piped into the character vertex shaders. The engine provides an Animator component which can be attached to a skinned mesh object to control the current clip and playback speed.
+### [Source Code](https://github.com/robbiegrier/Game-Engine)
+
+<br>
+
+---
+
+<br>
+
+## Multithreaded Audio Engine
+A low-level audio player in multithreaded C++ using XAudio2. Includes async loading for large audio clips, seamless clip streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented programming interface for loading, playing, pausing, modifying, and combining sounds. 
+
+<br>
+
+---
+
+<br>
+
 ## Space Truck
 A virtual reality experience developed in Unity.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RVm1o0vEtew?si=2ZVvNnNnIQ39kszB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
