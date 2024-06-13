@@ -77,8 +77,3 @@ How the unique challenges of game development impact global engineering techniqu
 - [Wright & Neidecken - Desk](assets/writing/WrightDesk.pdf)
 - [Land and Language](assets/writing/LandAndLanguage.pdf)
 - [Renaissance Geometry](assets/writing/RenaissanceGeometry.pdf)
-
-### Art
-- [Pisa Travel Poster](assets/pictures/Pisa.jpg)
-- [Lord of Darkness](assets/pictures/Moon.jpg)
-- [Count Zero](assets/pictures/Digital.jpg)
