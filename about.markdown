@@ -2,9 +2,19 @@
 layout: page
 title: "About Me"
 permalink: /about/
+menu: main
 ---
 
-### [LinkedIn](https://linkedin.com/in/robbie-grier) | [Github](https://github.com/robbiegrier)
+<div class="social-links">
+  <ul class="social-media-list">
+    Links
+  </ul>
+  <ul class="social-media-list">
+    {%- for entry in site.minima.social_links -%}
+      {%- include social-item.html item = entry -%}
+    {%- endfor -%}
+  </ul>
+</div>
 
 # Work Experience
 - Torc Robotics		

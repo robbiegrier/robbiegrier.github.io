@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Robbie Grier
+
+title: Robbie Grier's Portfolio
 email: robbiegrier10@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio
@@ -27,9 +28,17 @@ url: "https://robbiegrier.github.io" # the base hostname & protocol for your sit
 github_username:  robbiegrier
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/robbiegrier" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/robbie-grier"}
+    - { platform: youtube, user_url: "https://youtube.com/@robbiegrier2540?si=Rsw2wqmfdwc5txKO"}
 
 # Exclude from processing.
 # The following items will not be processed, by default.
