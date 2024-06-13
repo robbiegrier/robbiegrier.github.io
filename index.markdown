@@ -87,4 +87,4 @@ How the unique challenges of game development impact global engineering techniqu
 - [Full Portfolio](https://robbiegrier.wixsite.com/portfolio)
 
 ### Archive
-- [Other Work](_pages/archive.md)
+- [Other Work](pages/archive.md)
