@@ -13,3 +13,7 @@ permalink: /archive/
 - [Renaissance Geometry](assets/writing/RenaissanceGeometry.pdf)
 
 ### Art
+- [Pisa Travel Poster](assets/pictures/Pisa.jpg)
+- [Lord of Darkness](assets/pictures/Moon.jpg)
+- [Count Zero](assets/pictures/Digital.jpg)
+- [Space Tank](assets/pictures/Car.jpg)

@@ -86,8 +86,5 @@ How the unique challenges of game development impact global engineering techniqu
 - [Boomerblade](https://boomerblade.wixsite.com/boomerblade)
 - [Full Portfolio](https://robbiegrier.wixsite.com/portfolio)
 
-### Art
-- [Pisa Travel Poster](assets/pictures/Pisa.jpg)
-- [Lord of Darkness](assets/pictures/Moon.jpg)
-- [Count Zero](assets/pictures/Digital.jpg)
-- [Space Tank](assets/pictures/Car.jpg)
+### Archive
+- [Other Work](archive.md)
