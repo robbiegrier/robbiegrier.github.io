@@ -1,18 +1,26 @@
 ---
 layout: page
-title: About
+title: "About Me"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### [LinkedIn](www.linkedin.com/in/robbie-grier) | [Github](https://github.com/robbiegrier)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Work Experience
+- Torc Robotics		
+  - 2019 – 2023 (4 years)
+  - Software Engineer II
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Education
+- DePaul University (Graduate)			
+    - 2023 – Present (Graduating Nov. 2024)
+    - College of Computing and Digital Media				
+    - MS Software Engineering, Real Time Game Systems
+    - GPA 4.00
 
+- DePaul University (Undergraduate) 
+    - 2015 – 2019
+    - College of Computing and Digital Media
+    - BS Computer Science
+    - GPA 3.95 (Summa Cum Laude)
 
-[jekyll-organization]: https://github.com/jekyll
