@@ -50,3 +50,5 @@
 
 - name: This Portfolio Website
   source: https://github.com/robbiegrier/robbiegrier.github.io
+  blurb: >-
+    This website was made by me, using Jekyll, and deployed with Github pages.

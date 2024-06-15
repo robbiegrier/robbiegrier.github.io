@@ -1,0 +1,17 @@
+- name: MS Software Engineering
+  university: DePaul University
+  college: College of Computing and Digital Media
+  timeframe: 2023 - 2024 (expected)
+  gpa: 4.00
+  blurb: >-
+    At DePaul, I researched real-time systems design, focusing on game engine technology. I developed an engine with 
+    skinned animations, world editing, and a brush based terrain builder.
+
+- name: BS Computer Science
+  university: DePaul University
+  college: College of Computing and Digital Media
+  timeframe: 2015 - 2019
+  gpa: 3.95
+  blurb: >-
+    As an undergraduate, I studied computer science and researched topics including computer graphics, game development, 
+    real-time networking, and parallel programming in modern C++.
