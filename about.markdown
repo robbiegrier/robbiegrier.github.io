@@ -5,18 +5,7 @@ permalink: /about/
 menu: main
 ---
 
-<div class="social-links">
-  <ul class="social-media-list">
-    Links
-  </ul>
-  <ul class="social-media-list">
-    {%- for entry in site.minima.social_links -%}
-      {%- include social-item.html item = entry -%}
-    {%- endfor -%}
-  </ul>
-</div>
-
-# Work Experience
+## Work Experience
 
 2019 – 2023: **Torc Robotics**	
 	
@@ -24,7 +13,7 @@ Software Engineer II
 
 ***As a software engineering generalist at Torc, I worked on C++ libraries and components that complimented their core autonomous driving technology. I also worked on modernizing build systems and defining the developer experience for a large scale robotics codebase.***
 
-# Education
+## Education
 
 2023 – 2024 (expected): **MS Software Engineering; DePaul University**
 

@@ -1,0 +1,52 @@
+- name: Terrian Builder
+  source: https://github.com/robbiegrier/Game-Engine
+  paper: assets/research/ResearchProjectTerrainEditorPaper.pdf
+  video_id: L6XEXuVbLBU
+  blurb: >-
+    This is an overview of my terrain builder system as the final part of my game engine research project. 
+    It implements many GPU-based brushes for sculpting and painting the terrain of a large scene. It also 
+    has a foliage brush system and can render densely painted foliage. The terrain editor allows terrain assets 
+    to be created, saved, and loaded as part of the world builder workflow.
+
+- name: Game Engine World Editor
+  source: https://github.com/robbiegrier/Game-Engine
+  paper: assets/research/WorldEditorPaper.pdf
+  video_id: mWYN3-QDYbc
+  blurb: >-
+    This is my interactive world builder research project. It builds on my engine by adding gizmos for transforming 
+    objects, a gui for organizing the scene and spawning, an undo & redo system, and the ability to save scenes after 
+    editing them in the world builder.
+
+- name: Skinned Animation System
+  source: https://github.com/robbiegrier/Game-Engine
+  video_id: PqgRhDOPucA
+  blurb: >-
+    A GPU-accelerated animation system. Converts animation data embedded in GLTF models into a runtime format, which 
+    is loaded as an animation clip in the engine. Compute shaders implement the skinning algorithm and bone data is piped 
+    into the character vertex shaders. The engine provides an Animator component which can be attached to a skinned mesh 
+    object to control the current clip and playback speed.
+
+- name: Multithreaded Audio Engine
+  blurb: >-
+    A low-level audio player in multithreaded C++ using XAudio2. Includes async loading for large audio clips, seamless clip 
+    streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
+    programming interface for loading, playing, pausing, modifying, and combining sounds.
+
+- name: Space Truck
+  video_id: RVm1o0vEtew
+  blurb: >-
+    A virtual reality experience developed in Unity.
+
+- name: Space Invaders - Design Patterns Analysis
+  paper: assets/research/SpaceInvadersDesignDocFinal.pdf
+  source: https://github.com/robbiegrier/Space-Invaders
+  blurb: >-
+    An analysis of object-oriented design patterns with a full recreation of Space Invaders.
+
+- name: Global Game Dev Analysis
+  paper: assets/research/GSD_Research_Paper.pdf
+  blurb: >-
+    How the unique challenges of game development impact global engineering techniques.
+
+- name: This Portfolio Website
+  source: https://github.com/robbiegrier/robbiegrier.github.io
