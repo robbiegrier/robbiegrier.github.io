@@ -27,6 +27,7 @@
     object to control the current clip and playback speed.
 
 - name: Multithreaded Audio Engine
+  video_id: x-KcqYzr0SU
   blurb: >-
     A low-level audio player in multithreaded C++ using XAudio2. Includes async loading for large audio clips, seamless clip 
     streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
