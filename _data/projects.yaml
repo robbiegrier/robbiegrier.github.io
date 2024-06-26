@@ -3,19 +3,20 @@
   paper: assets/research/ResearchProjectTerrainEditorPaper.pdf
   video_id: L6XEXuVbLBU
   blurb: >-
-    This is an overview of my terrain builder system as the final part of my game engine research project. 
-    It implements many GPU-based brushes for sculpting and painting the terrain of a large scene. It also 
-    has a foliage brush system and can render densely painted foliage. The terrain editor allows terrain assets 
-    to be created, saved, and loaded as part of the world builder workflow.
+    I built a terrain editing module for my existing engine that allows terrain assets to be manipulated
+    with a collection of GPU-based brushes. I improved my understanding of terrain rendering
+    techniques and devised unique strategies for utilizing the GPU to create a responsive system for
+    designing a large, detailed game world.
 
 - name: Game Engine World Editor
   source: https://github.com/robbiegrier/Game-Engine
   paper: assets/research/WorldEditorPaper.pdf
   video_id: mWYN3-QDYbc
   blurb: >-
-    This is my interactive world builder research project. It builds on my engine by adding gizmos for transforming 
-    objects, a gui for organizing the scene and spawning, an undo & redo system, and the ability to save scenes after 
-    editing them in the world builder.
+    I researched and implemented techniques to transform a pure-code engine into a desktop editor
+    that can be used to design a game world without programming or recompiling. This included a GUI,
+    transform gizmos for objects, scene saving and loading, undo and redo from a history, copy and
+    paste, and an in-editor game launcher for fast iteration.
 
 - name: Skinned Animation System
   source: https://github.com/robbiegrier/Game-Engine
@@ -27,16 +28,18 @@
     object to control the current clip and playback speed.
 
 - name: Multithreaded Audio Engine
-  video_id: x-KcqYzr0SU
+  video_id: x-KcqYzr0SU?si=vIb_5ADD9-tx52yw # Note: we need si because the video has copywrited content
   blurb: >-
     A low-level audio player in multithreaded C++ using XAudio2. Includes async loading for large audio clips, seamless clip 
     streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
     programming interface for loading, playing, pausing, modifying, and combining sounds.
 
-- name: Space Truck
+- name: Space Truck Simulator
   video_id: RVm1o0vEtew
   blurb: >-
-    A virtual reality experience developed in Unity.
+    I led a team of students to develop 'Space Truck Simulator', a virtual reality experience. I
+    implemented a system to simulate a large area of outer space within the limits of the engine and I
+    learned the fundamentals of virtual reality development and its layers of abstraction in Unity
 
 - name: Space Invaders - Design Patterns Analysis
   paper: assets/research/SpaceInvadersDesignDocFinal.pdf
