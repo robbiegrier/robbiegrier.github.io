@@ -3,10 +3,10 @@
   paper: assets/research/ResearchProjectTerrainEditorPaper.pdf
   video_id: L6XEXuVbLBU
   blurb: >-
-    I built a terrain editing module for my existing engine that allows terrain assets to be manipulated
-    with a collection of GPU-based brushes. I improved my understanding of terrain rendering
-    techniques and devised unique strategies for utilizing the GPU to create a responsive system for
-    designing a large, detailed game world.
+      I built a terrain editing module for my existing engine that allows terrain assets to be manipulated with a collection of 
+      GPU-based brushes. I devised unique strategies for utilizing the GPU to create a responsive system for designing a large, 
+      detailed game world. I gained a deeper understanding of terrain systems, interface design, and the management of resources 
+      between the CPU and GPU.
 
 - name: Game Engine World Editor
   source: https://github.com/robbiegrier/Game-Engine
