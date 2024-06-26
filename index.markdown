@@ -49,6 +49,3 @@ layout: homepage
 - [Tinker Engine](https://grier.hashnode.dev/tinker-engine)
 - [Boomerblade](https://boomerblade.wixsite.com/boomerblade)
 - [Full Portfolio](https://robbiegrier.wixsite.com/portfolio)
-
-### Archive
-- [Other Work](pages/archive.md)
