@@ -17,11 +17,6 @@ layout: homepage
     {% assign linkVals = linkVals | push: project.paper %}
 {% endif %}
 
-{% if project.source %}
-    {% assign linkKeys = linkKeys | push: "Source Code" %}
-    {% assign linkVals = linkVals | push: project.source %}
-{% endif %}
-
 {% assign len = linkKeys | size %}
 {% assign lenm1 = len | minus: 1 %}
 {% assign linksStr = "" %}
