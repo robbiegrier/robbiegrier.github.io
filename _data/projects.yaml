@@ -3,20 +3,20 @@
   paper: assets/research/ResearchProjectTerrainEditorPaper.pdf
   video_id: L6XEXuVbLBU
   blurb: >-
-      I built a terrain editing module for my existing engine that allows terrain assets to be manipulated with a collection of 
-      GPU-based brushes. I devised unique strategies for utilizing the GPU to create a responsive system for designing a large, 
-      detailed game world. I gained a deeper understanding of terrain systems, interface design, and the management of resources 
-      between the CPU and GPU.
-
+      A terrain editor built into my <span class=cpp>C++</span> game engine. Allows terrain assets to be manipulated with a collection of 
+      GPU-based brushes. Utilizes compute shaders to create a responsive system for designing a large, 
+      detailed game world. Provides a full GUI for selecting brushes for sculpting and painting including
+      blur fitlers and procedural noise. Terrain assets are functional in-game with various queries and a 
+      quad-tree for fast collision detection.
+     
 - name: Game Engine World Editor
   source: https://github.com/robbiegrier/Game-Engine
   paper: assets/research/WorldEditorPaper.pdf
   video_id: mWYN3-QDYbc
   blurb: >-
-    I researched and implemented techniques to transform my pure-code engine into a desktop editor that can be used 
-    to design a game world without the user needing to write code or recompile. This included a GUI, transform gizmos 
-    for objects, scene saving and loading, undo and redo from a history, copy and paste, and an in-editor game launcher 
-    for fast iteration.
+    A desktop world editor for my <span class=cpp>C++</span> game engine that can be used to design a game world without the user needing to 
+    write code or recompile. Includes a GUI, transform gizmos for manipulating objects, scene saving and loading, 
+    undo and redo from a history, copy and paste, and an in-editor game launcher for fast iteration.
 
 - name: Skinned Animation System
   source: https://github.com/robbiegrier/Game-Engine
@@ -30,8 +30,8 @@
 - name: Multithreaded Audio Engine
   video_id: x-KcqYzr0SU?si=vIb_5ADD9-tx52yw # Note: we need si for local testing because the video has copywrited content
   blurb: >-
-    A low-level audio player in multithreaded C++ using XAudio2. Includes async loading for large audio clips, seamless clip 
-    streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
+    A low-level audio player in <span class=cpp>multithreaded C++</span> using XAudio2. Includes async loading for large audio clips, 
+    seamless clip streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
     programming interface for loading, playing, pausing, modifying, and combining sounds.
 
 - name: Space Truck Simulator
@@ -39,13 +39,23 @@
   blurb: >-
     I led a team of students to develop 'Space Truck Simulator', a virtual reality experience. I
     implemented a system to simulate a large area of outer space within the limits of the engine and I
-    learned the fundamentals of virtual reality development and its layers of abstraction in Unity
+    learned the fundamentals of virtual reality development and its layers of abstraction in <span class=csharp>Unity (C#)</span>.
+
+- name: Overcast 
+  source: https://github.com/robbiegrier/overcast
+  embed: >-
+      <iframe frameborder="0" src="https://itch.io/embed/3098164?linkback=true&amp;bg_color=3f3f3f&amp;fg_color=ffffff&amp;link_color=5be2fa&amp;border_color=656565" 
+      width="552" height="167"><a href="https://robbiegrier.itch.io/overcast">Overcast by Robbie Grier</a></iframe>
+  blurb: >-
+      A minimalist city simulator built in <span class=rust>Rust</span>. Utilizes the parallelism 
+      of [Bevy](https://bevyengine.org/) by allowing systems to run in parallel. In addition, vehicle AI behaviors execute 
+      with parallel ECS queries to maximize performance.
 
 - name: Space Invaders - Design Patterns Analysis
   paper: assets/research/SpaceInvadersDesignDocFinal.pdf
   source: https://github.com/robbiegrier/Space-Invaders
   blurb: >-
-    An analysis of object-oriented design patterns with a full recreation of Space Invaders.
+    An analysis of object-oriented design patterns with a full recreation of Space Invaders in <span class=csharp>C#</span>.
 
 - name: Global Game Dev Analysis
   paper: assets/research/GSD_Research_Paper.pdf

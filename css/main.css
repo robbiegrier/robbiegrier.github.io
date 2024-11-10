@@ -1,0 +1,38 @@
+h1 {
+    color: rgb(116, 168, 168);
+    font-weight: bolder;
+}
+
+p {
+    color: rgb(161, 171, 171);
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    font-weight: bolder;
+    color: cyan;
+}
+
+a:hover,
+a:active {
+    font-weight: bold;
+    color: hotpink;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cpp {
+    color: rgb(0, 134, 212)
+}
+
+.rust {
+    color: rgb(206, 66, 43)
+}
+
+.csharp {
+    color: rgb(91, 200, 83)
+}
