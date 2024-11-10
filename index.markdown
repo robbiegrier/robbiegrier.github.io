@@ -2,6 +2,8 @@
 layout: homepage
 ---
 
+<link rel="stylesheet" href="css/main.css">
+
 {% for project in site.data.projects %}
 # {{ project.name }}
 

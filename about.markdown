@@ -5,6 +5,8 @@ permalink: /about/
 menu: main
 ---
 
+<link rel="stylesheet" href="../css/main.css">
+
 ### Work Experience
 
 {% for job in site.data.work %}
