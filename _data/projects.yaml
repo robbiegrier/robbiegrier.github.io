@@ -12,7 +12,7 @@
 - name: Game Engine World Editor
   source: https://github.com/robbiegrier/Game-Engine
   paper: assets/research/WorldEditorPaper.pdf
-  video_id: mWYN3-QDYbc
+  video_id: bwFoSCG0Q4E
   blurb: >-
     A desktop world editor for my <span class=cpp>C++</span> game engine that can be used to design a game world without the user needing to 
     write code or recompile. Includes a GUI, transform gizmos for manipulating objects, scene saving and loading, 
