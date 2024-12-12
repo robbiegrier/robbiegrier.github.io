@@ -3,10 +3,10 @@
   paper: assets/research/ResearchProjectTerrainEditorPaper.pdf
   video_id: uuivOS-jcJQ
   blurb: >-
-      A terrain editor built into my <span class=cpp>C++</span> game engine. Allows terrain assets to be manipulated with a collection of 
-      GPU-based brushes. Utilizes compute shaders to create a responsive system for designing a large, 
-      detailed game world. Provides a full GUI for selecting brushes for sculpting and painting including
-      blur fitlers and procedural noise. Terrain assets are functional in-game with various queries and a 
+      A terrain editor built into my <span class=cpp>C++</span> game engine. Allows terrain assets to be
+      manipulated with a collection of GPU-based brushes. Utilizes compute shaders to create a responsive 
+      system for designing a large, detailed game world. A terrain window in the GUI allows the user to switch between
+      brushes and adjust settings quickly. Terrain assets are functional in-game with various queries and a 
       quad-tree for fast collision detection.
      
 - name: Game Engine World Editor
