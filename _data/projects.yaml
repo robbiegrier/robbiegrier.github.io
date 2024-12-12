@@ -1,7 +1,12 @@
 - name: Terrian Builder
-  source: https://github.com/robbiegrier/Game-Engine
-  paper: assets/research/ResearchProjectTerrainEditorPaper.pdf
   video_id: uuivOS-jcJQ
+  links:
+    - name: Full Code Demo
+      link: https://www.youtube.com/embed/L6XEXuVbLBU
+    - name: Engine Source
+      link: https://github.com/robbiegrier/Game-Engine
+    - name: Paper
+      link: assets/research/ResearchProjectTerrainEditorPaper.pdf
   blurb: >-
       A terrain editor built into my <span class=cpp>C++</span> game engine. Allows terrain assets to be
       manipulated with a collection of GPU-based brushes. Utilizes compute shaders to create a responsive 
@@ -10,8 +15,13 @@
       quad-tree for fast collision detection.
      
 - name: Game Engine World Editor
-  source: https://github.com/robbiegrier/Game-Engine
-  paper: assets/research/WorldEditorPaper.pdf
+  links:
+    - name: Editor Code Demo
+      link: https://www.youtube.com/embed/mWYN3-QDYbc
+    - name: Engine Source
+      link: https://github.com/robbiegrier/Game-Engine
+    - name: Paper
+      link: assets/research/WorldEditorPaper.pdf
   video_id: bwFoSCG0Q4E
   blurb: >-
     A desktop world editor for my <span class=cpp>C++</span> game engine that can be used to design a game world without the user needing to 
@@ -19,20 +29,12 @@
     undo and redo from a history, copy and paste, and an in-editor game launcher for fast iteration.
 
 - name: Skinned Animation System
-  source: https://github.com/robbiegrier/Game-Engine
   video_id: PqgRhDOPucA
   blurb: >-
     A GPU-accelerated animation system. Converts animation data embedded in GLTF models into a runtime format, which 
     is loaded as an animation clip in the engine. Compute shaders implement the skinning algorithm and bone data is piped 
     into the character vertex shaders. The engine provides an Animator component which can be attached to a skinned mesh 
     object to control the current clip and playback speed.
-
-- name: Multithreaded Audio Engine
-  video_id: x-KcqYzr0SU?si=vIb_5ADD9-tx52yw # Note: we need si for local testing because the video has copywrited content
-  blurb: >-
-    A low-level audio player in <span class=cpp>multithreaded C++</span> using XAudio2. Includes async loading for large audio clips, 
-    seamless clip streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
-    programming interface for loading, playing, pausing, modifying, and combining sounds.
 
 - name: Space Truck Simulator
   video_id: RVm1o0vEtew
@@ -42,7 +44,9 @@
     learned the fundamentals of virtual reality development and its layers of abstraction in <span class=csharp>Unity (C#)</span>.
 
 - name: Overcast 
-  source: https://github.com/robbiegrier/overcast
+  links:
+    - name: Source
+      link: https://github.com/robbiegrier/overcast
   embed: >-
       <iframe frameborder="0" src="https://itch.io/embed/3098164?linkback=true&amp;bg_color=3f3f3f&amp;fg_color=ffffff&amp;link_color=5be2fa&amp;border_color=656565" 
       width="552" height="167"><a href="https://robbiegrier.itch.io/overcast">Overcast by Robbie Grier</a></iframe>
@@ -52,17 +56,31 @@
       with parallel ECS queries to maximize performance.
 
 - name: Space Invaders - Design Patterns Analysis
-  paper: assets/research/SpaceInvadersDesignDocFinal.pdf
+  links:
+    - name: Systems Design Doc
+      link: assets/research/SpaceInvadersDesignDocFinal.pdf
   source: https://github.com/robbiegrier/Space-Invaders
   blurb: >-
     An analysis of object-oriented design patterns with a full recreation of Space Invaders in <span class=csharp>C#</span>.
 
 - name: Global Game Dev Analysis
-  paper: assets/research/GSD_Research_Paper.pdf
+  links:
+    - name: Paper
+      link: assets/research/GSD_Research_Paper.pdf
   blurb: >-
-    How the unique challenges of game development impact global engineering techniques.
+    How the unique challenges of game development impact global engineering techniques. I discuss practices in source control, 
+    testing, and software architecture.
+
+- name: Multithreaded Audio Engine
+  video_id: x-KcqYzr0SU
+  blurb: >-
+    A low-level audio player in <span class=cpp>multithreaded C++</span> using XAudio2. Includes async loading for large audio clips, 
+    seamless clip streaming with callback threads, and a priority system for managing multiple sounds. The library provides an object-oriented 
+    programming interface for loading, playing, pausing, modifying, and combining sounds.
 
 - name: This Portfolio Website
-  source: https://github.com/robbiegrier/robbiegrier.github.io
+  links:
+    - name: Source
+      link: https://github.com/robbiegrier/robbiegrier.github.io
   blurb: >-
     This website was made by me, using Jekyll, and deployed with Github pages.

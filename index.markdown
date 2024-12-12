@@ -14,14 +14,12 @@ layout: homepage
 {% assign linkKeys = "" | split: ',' %}
 {% assign linkVals = "" | split: ',' %}
 
-{% if project.paper %}
-    {% assign linkKeys = linkKeys | push: "Read Paper" %}
-    {% assign linkVals = linkVals | push: project.paper %}
-{% endif %}
-
-{% if project.source %}
-    {% assign linkKeys = linkKeys | push: "Source Code" %}
-    {% assign linkVals = linkVals | push: project.source %}
+{% if project.links %}
+    {% assign lenLinksm1 = project.links | size | minus:1 %}
+    {% for idx in (0..lenLinksm1) %}
+        {% assign linkKeys = linkKeys | push: project.links[idx].name %}
+        {% assign linkVals = linkVals | push: project.links[idx].link %}
+    {% endfor %}
 {% endif %}
 
 {% assign len = linkKeys | size %}
