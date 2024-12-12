@@ -40,6 +40,7 @@ minima:
     - { platform: linkedin, user_url: "https://linkedin.com/in/robbie-grier"}
     - { platform: youtube, user_url: "https://youtube.com/@robbiegrier2540?si=Rsw2wqmfdwc5txKO"}
 
+include: [".well-known"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
