@@ -6,7 +6,7 @@
     - name: Engine Source
       link: https://github.com/robbiegrier/Game-Engine
     - name: Paper
-      link: assets/research/ResearchProjectTerrainEditorPaper.pdf
+      link: /assets/research/ResearchProjectTerrainEditorPaper.pdf
   blurb: >-
       A terrain editor built into my <span class=cpp>C++</span> game engine. Allows terrain assets to be
       manipulated with a collection of GPU-based brushes. Utilizes compute shaders to create a responsive 
@@ -21,7 +21,7 @@
     - name: Engine Source
       link: https://github.com/robbiegrier/Game-Engine
     - name: Paper
-      link: assets/research/WorldEditorPaper.pdf
+      link: /assets/research/WorldEditorPaper.pdf
   video_id: bwFoSCG0Q4E
   blurb: >-
     A desktop world editor for my <span class=cpp>C++</span> game engine that can be used to design a game world without the user needing to 
@@ -58,7 +58,7 @@
 - name: Space Invaders - Design Patterns Analysis
   links:
     - name: Systems Design Doc
-      link: assets/research/SpaceInvadersDesignDocFinal.pdf
+      link: /assets/research/SpaceInvadersDesignDocFinal.pdf
   source: https://github.com/robbiegrier/Space-Invaders
   blurb: >-
     An analysis of object-oriented design patterns with a full recreation of Space Invaders in <span class=csharp>C#</span>.
@@ -66,7 +66,7 @@
 - name: Global Game Dev Analysis
   links:
     - name: Paper
-      link: assets/research/GSD_Research_Paper.pdf
+      link: /assets/research/GSD_Research_Paper.pdf
   blurb: >-
     How the unique challenges of game development impact global engineering techniques. I discuss practices in source control, 
     testing, and software architecture.
