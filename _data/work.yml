@@ -1,0 +1,15 @@
+- name: Torc Robotics
+  timeframe: "2025 - present"
+  title: Software Engineer
+  link: https://torc.ai
+  blurb: >-
+    Currently a software engineer in dev-tools.
+
+- name: Torc Robotics
+  timeframe: "2019 - 2023"
+  title: Software Engineer
+  link: https://torc.ai
+  blurb: >-
+    As a software engineering generalist at Torc, I worked on C++ libraries and components that
+    complimented their core autonomous driving technology. I also worked on modernizing build
+    systems and defining the developer experience for a large-scale robotics codebase.
